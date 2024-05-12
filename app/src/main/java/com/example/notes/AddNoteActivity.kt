@@ -35,10 +35,6 @@ class AddNoteActivity : AppCompatActivity() {
             finish()
             Toast.makeText(this@AddNoteActivity, "Note Saved", Toast.LENGTH_SHORT).show()
 
-//
-//            db.insertNote(note)
-//            finish()
-//            Toast.makeText(this, "Note Saved",Toast.LENGTH_SHORT).show()
         }
     }
 }
